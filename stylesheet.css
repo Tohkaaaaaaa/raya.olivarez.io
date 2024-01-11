@@ -1,0 +1,62 @@
+/*background*/
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%) scaleX(-1);
+    z-index: -1;
+}
+
+/*logo*/
+#logo {
+    width: 678px;
+    height: 415px;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+}
+
+/*oc*/
+#oc {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 92%;
+    top: 3%;
+}
+
+/*button*/
+#button {
+    width: 500px;
+    height: 71px;
+    position: fixed;
+    left: 51%;
+    top: 75%;
+    opacity: 0.5;
+}
+
+/*btntxt*/
+#explore {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    background: -webkit-linear-gradient(#49A76D, #30735E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 18px;
+    position: fixed;
+    top: 71%;
+    left: 56%;
+}
